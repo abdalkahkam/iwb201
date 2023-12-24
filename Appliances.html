@@ -1,0 +1,159 @@
+0000<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>المنتجات</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myFunction.js"></script>
+</head>
+<body>
+    <header>
+        <h1>المنتجات</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="home.html">الرئيسية</a></li>
+            <li><a href="AbuotUs.html">من نحن</a></li>
+            <li><a href="Appliances.html">المنتجات</a></li>
+        </ul>
+    </nav>
+    
+        <h2 id="app">جدول المنتجات:</h2>
+        <table>
+            <tr>
+                <th>المنتج</th>
+                <th>تفاصيل</th>
+                <th>السعر</th>
+                <th>صورة</th>
+                <th>الإضافة للسلة</th>
+            </tr>
+            <!-- يمكن إكمال الصفحة بإضافة بيانات المنتجات -->
+            <!-- ... الأكواد السابقة ... -->
+
+<tr>
+    <td>شاشة سمارت</td>
+    <td>شاشة 43 بوصة سمارت سرين اندوريد 12 LED – FHD</td>
+    <td>650000 ل.س</td>
+    <td><img src="شاشة.jpeg" width="100">
+    <td id="button"><button onclick="addToCart('شاشة سمارت', 650000)">إضافة للسلة </button></td>
+</tr>
+<tr>
+    <td>خلاط impex</td>
+    <td>مع مطحنة 3*1 – 550 وات – 1.2 لتر</td>
+    <td>150000 ل.س</td>
+    <td><img src="خلاط.jpeg" width="100"></td>
+    <td id="button"><button onclick="addToCart('خلاط impex', 150000)">إضافة للسلة </button></td>
+</tr>
+<tr>
+    <td>موقد غاز</td>
+    <td>موقد غاز وكهرباء جليم غاز 90 * 60 سم – إيطالي – ستيل</td>
+    <td>550000 ل.س</td>
+    <td><img src="موقد غاز.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('موقد غاز', 550000)">إضافة للسلة </button></td>
+</tr>
+<tr>
+    <td>مصفف شعر</td>
+    <td>مصفف شعر ريمنجتون 1200 وات – أسود</td>
+    <td>120000 ل.س</td>
+    <td><img src="مصفف شعر.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('مصفف شعر', 120000)">إضافة للسلة </button></td>
+</tr>
+<tr>
+    <td>مكيف LG</td>
+    <td>مكيف سبليت 20000 وحدة انفرتر – بارد - 2طن</td>
+    <td>350000 ل.س</td>
+    <td><img src="مكيف.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('مكيف LG', 135000)">إضافة للسلة</button></td>
+</tr>
+<tr>
+    <td>مكواة ملابس</td>
+    <td>مكواة جافة كهربائية امبكس 1300 وات – بنفسجي / أبيض</td>
+    <td>650000 ل.س</td>
+    <td><img src="مكواة.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('مكواة', 650000)">إضافة للسلة </button></td>
+</tr>
+<tr>
+    <td>مكنسة كهربائية</td>
+    <td>مكنسة كهربائية امبكس 1400 وات – 30 لتر – ستيل</td>
+    <td>450000 ل.س</td>
+    <td><img src="مكنسة.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('مكنسة كهربائية', 450000)">إضافة للسلة </button></td>
+</tr>
+
+<tr>
+    <td>مجفف ملابس</td>
+    <td>مجفف ملابس 8 كيلو ستار واي – ستيل</td>
+    <td> 600000 ل.س</td>
+    <td><img src="مجفف ملابس.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('مجفف ملابس', 600000)">إضافة للسلة </button></td>
+</tr>
+
+<tr>
+
+    <td>دفاية كهربائية</td>
+    <td>دفاية كهربائية امبكس كوارتز 2200 وات – أسود / أبيض</td>
+    <td> 320000 ل.س</td>
+    <td><img src="دفاية كهربائية.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('دفاية كهرائية', 320000)">إضافة للسلة </button></td>
+</tr>
+
+<tr>
+    <td>جلاية صحون</td>
+    <td>جلاية صحون هايسنس 13 مكان – 8 برامج – ستيل</td>
+    <td> 550000 ل.س</td>
+    <td><img src="جلاية.jpeg" alt="صورة المنتج 1" width="100"></td>
+    <td id="button"><button onclick="addToCart('جلاية صحون', 550000)">إضافة للسلة </button></td>
+</tr>
+</table>
+<div id="cart">
+    <h3>سلة المشتريات</h3>
+    <table id="cart-items">
+        <tr>
+            <th>م.</th>
+            <th>المادة</th>
+            <th>السعر (ل.س)</th>
+            <th>الكمية</th>
+            <th>السعر الإجمالي (ل.س)</th>
+        </tr>
+       <!-- سيتم إضافة العناصر هنا بواسطة جافاسكريبت -->
+    </table>
+    <p id="tax">الضريبة 5%: 0 ل.س</p>
+    <p id="total">المجموع النهائي: 0 ل.س</p>
+    <button id="cancel" onclick="cancelOrder()">إلغاء</button>
+    <button id="proceed" onclick="showForm()" onclick="proceedOrder()">متابعة</button> 
+
+    <div id="form" style="display: none;">
+       
+</div>
+
+ <!-- النموذج -->
+<div id="purchaseForm" style="display: none;">
+    <form id="buyForm" onsubmit="return validateForm()">
+        <label for="fullName">الاسم الكامل:</label>
+        <input type="text" id="fullName" name="fullName" required pattern="[ء-ي ]+">
+
+        <label for="nationalID">الرقم الوطني:</label>
+        <input type="text" id="nationalID" name="nationalID" maxlength="14" required pattern="[0-9]+">
+
+        <label for="birthDate">تاريخ الميلاد:</label>
+        <input type="date" id="birthDate" name="birthDate" required>
+
+        <label for="mobileNumber">رقم الموبايل:</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" required pattern="(09[0-9]{8}|095[0-9]{7})">
+
+        <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+        <!-- حقل Captcha -->
+        <label for="captcha">رمز التحقق:</label>
+        <input type="text" id="captcha" name="captcha" required>
+        <button type="button" onclick="changeCaptcha()">تغيير الرمز</button>
+        <button type="submit">شراء</button>
+        <br/>
+        <img id="captchaImage" src="" alt="رمز التحقق">
+    </form>
+</div>
+<script src="myFunction.js"></script>
+</body>
+</html>

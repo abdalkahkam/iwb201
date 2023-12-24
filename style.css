@@ -1,0 +1,221 @@
+/* Reset some default styles for consistency across browsers */
+body, h1, h2, h3, ul, li, p, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    direction: rtl;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #444;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #app{
+    text-align: center;
+  }
+
+  
+  #button {
+    text-align: center;
+  }
+
+
+  /* تنسيق الجدول */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  direction: rtl;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: right;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* تحسين تنسيق الصور في الجدول */
+td img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* تنسيق نموذج الشراء */
+#checkout-form {
+  margin-top: 20px;
+}
+
+#checkout-form form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#checkout-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#checkout-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#checkout-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#checkout-form button:hover {
+  background-color: #45a049;
+}
+
+
+/* تنسيقات لسلة المشتريات */
+#cart {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#cart-items-list {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items-list li {
+  margin-bottom: 10px;
+}
+
+/* تنسيقات للأزرار */
+button {
+  background-color: #2764c0;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #4557a0;
+}
+
+#cart button {
+  margin-right: 10px;
+}
+
+#checkout-form button {
+  margin-top: 10px;
+}
+
+/* تنسيقات لسلة المشتريات */
+#cart-container {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+#cart-items-list {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+#cart-items-list li span {
+  flex: 1;
+  text-align: center;
+}
+
+#tax, #total {
+  font-weight: bold;
+}
+
+
+/* تحسين التنسيقات لرمز Captcha */
+#captchaForm {
+  max-width: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#captchaInput {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#captchaImage {
+  width: 10%;
+  height: 5%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+
+#captchaError {
+  display: block;
+  margin-bottom: 10px;
+}
